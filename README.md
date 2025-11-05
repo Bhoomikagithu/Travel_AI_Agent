@@ -18,7 +18,7 @@ A powerful AI-powered travel itinerary planner built using **LangChain**, **Open
 - Personalized itinerary generation based on destination, duration, budget, and language
 - Utilize the power of GPT-4o to generate intelligent and personalized travel plans
 - Interactive destination map using OpenStreetMap (via Folium)
-- Export your itinerary as a polished PDF or sync it directly to your calendar using downloadable .ics files
+- Export your itinerary as a polished PDF 
 
 ---
 
@@ -36,7 +36,7 @@ The Planner agent processes the research results using GPT-4o to create a detail
 View your itinerary along with an interactive OpenStreetMap, adjust preferences if needed, and add budget and language filters.
 
 - Step 5: Export & Sync
-Download your itinerary as a PDF or export a calendar .ics file for easy syncing with Google Calendar, Apple Calendar, or others.
+Download your itinerary as a PDF
 
 - Step 6: Session History
 Your recent trips are saved in the current session for easy review or re-generation without losing progress.
@@ -47,7 +47,6 @@ Your recent trips are saved in the current session for easy review or re-generat
 - **🔍 Real-time Google Search** (via SerpAPI)
 - **🧠 Memory** (LangChain Conversation Memory)
 - **📜 PDF Export** (via `pdfkit`)
-- **📆 .ICS Calendar Export** (via `ics`)
 - **🗺️ OpenStreetMap Integration** (via `folium`)
 - **🗣️ Multilingual Support**
 - **💸 Budget-Aware Suggestions**
@@ -88,7 +87,6 @@ Both are free-tier friendly for limited use.
 - SerpAPI
 - Streamlit
 - PDFKit
-- ICS Calendar
 - Folium + OpenStreetMap
 
 ---
