@@ -60,19 +60,7 @@ Your recent trips are saved in the current session for easy review or re-generat
 Install dependencies with:
 
 ```bash
-pip install -r requirements.txt
-```
-
-Make sure to also install wkhtmltopdf for PDF export:
-
-**Ubuntu/Debian:**
-```bash
-sudo apt-get install wkhtmltopdf
-```
-
-**macOS (with Homebrew):**
-```bash
-brew install --cask wkhtmltopdf
+pip install -r requirement.txt
 ```
 
 ---
@@ -91,11 +79,6 @@ streamlit run Travel_Agent.py
 - **SerpAPI Key** – get it from: https://serpapi.com/users/sign_up
 
 Both are free-tier friendly for limited use.
-
----
-
-## 🌍 Demo UI Screenshot
-Add a screenshot here once you've run the app to showcase the output
 
 ---
 
