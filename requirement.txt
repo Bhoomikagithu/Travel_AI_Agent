@@ -1,7 +1,14 @@
+
 streamlit
 openai
+langchain
+langchain-openai
+langchain-community
+python-dotenv
+google-search-results
 weasyprint
 reportlab
 ics
 folium
 streamlit-folium
+
