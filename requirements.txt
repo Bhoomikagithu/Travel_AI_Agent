@@ -1,9 +1,9 @@
 
 streamlit
 openai
-langchain
-langchain-openai
-langchain-community
+langchain==0.2.17
+langchain-openai==0.1.25
+langchain-community==0.2.19
 python-dotenv
 google-search-results
 weasyprint
