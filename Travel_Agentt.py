@@ -134,7 +134,7 @@ if generate_clicked:
             researcher = initialize_agent(
                 tools=[search_tool],
                 llm=llm,
-                agent=AgentType.CHAT_OPENAI_FUNCTIONS,
+                agent=AgentType.OPENAI_FUNCTIONS,
                 verbose=False,
                 memory=memory,
                 max_iterations=3,
